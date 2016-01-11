@@ -1,0 +1,23 @@
+{
+  "name": "extractnread",
+  "version": "1.0.0",
+  "description": "This project will prompt you to enter a url and a selector and will read aloud the text extracted.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js | say -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pherepaphe/extract-n-read.git"
+  },
+  "author": "Pherepaphe",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "colors": "^1.1.2",
+    "html-metadata": "^1.4.0",
+    "optimist": "^0.6.1",
+    "prompt": "^0.2.14",
+    "request": "^2.67.0",
+  }
+}
